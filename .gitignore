@@ -6,3 +6,8 @@ __pycache__/
 *.py[cod]
 .env
 .DS_Store
+
+# AWS credentials and private keys
+*.pem
+.env.*
+!.env.example
